@@ -14,3 +14,9 @@ git remote add origin https://github.com/noemarco7/CursoGit.git   para subir al 
 ************************git branch -M main
 git push origin master  para actualizar información
 git pull https://github.com/noemarco7/CursoGit.git -- para descargar/actualizar desde el github a local (cambios en remoto)
+git tag 15-09-20v1 -m "Versión 1 del proyecto"  -- para versiones
+git push --tags
+git clone https://github.com/noemarco7/CursoGit.git para descargar el repositorio a local
+
+
+Para mostrar las ramas de manera muy visual: git log --oneline --decorate --all --graph
