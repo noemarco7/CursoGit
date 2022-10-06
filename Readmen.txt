@@ -11,3 +11,4 @@ git commit --amend para editar los nombre de los commit
 git remote add origin https://github.com/noemarco7/CursoGit.git   para subir al githab
 ************************git branch -M main
 git push origin master  para actualizar información
+git pull -- para descargar/actualizar desde el github a local (cambios en remoto)
