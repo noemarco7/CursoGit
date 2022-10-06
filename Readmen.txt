@@ -9,5 +9,5 @@ git log --oneline para ver listado de todas las copias commit
 git reset --hard c84f925  para restaurar el fichero con el anterior cambio
 git commit --amend para editar los nombre de los commit
 git remote add origin https://github.com/noemarco7/CursoGit.git   para subir al githab
-git branch -M main
-git push -u origin main  para actualizar información
+************************git branch -M main
+git push origin master  para actualizar información
