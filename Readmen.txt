@@ -24,12 +24,32 @@ git push --tags
 
 git clone https://github.com/noemarco7/CursoGit.git para descargar el repositorio a local
 
-crear rama
-git branch nombre que queremos ponerle git branch javascript
+**crear rama
+git branch nombre que queremos ponerle 
+git branch javascript
 para ver en que rama se está es 
 git branch
-para moverte a la rama que quieres trabajar es 
+
+**para moverte a la rama que quieres trabajar es 
 git checkout y nombre de la rama 
 git checkout javascript
+
+**se puede editar el mismo fichero desde distintas ramas, y parece como dos proyectos distintos,
+y cada cambio se ve en cada rama.
+
+1. para hacer un merge es necesario  ir a la rama master
+2. git merge mas el normbre de la rama que se quiere fusionar
+git merge javascript
+
+
+**Para clonar el repositorio de github a local
+git clone repositorio web de github
+
+
+
+
+
+
+
 
 Para mostrar las ramas de manera muy visual: git log --oneline --decorate --all --graph
